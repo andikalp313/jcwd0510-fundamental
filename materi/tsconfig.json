@@ -1,0 +1,7 @@
+{
+  "compilerOptions": {
+    "target": "ES2021"
+  }
+}
+
+//dibutuhkan jika menggunakan replaceall
