@@ -97,3 +97,4 @@ for (let i = 2; i <= nn; i++) {
   console.log(i);
 }
 console.log(cc);
+console.log(cc);
