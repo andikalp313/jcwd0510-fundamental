@@ -43,8 +43,8 @@ console.log(`angka ${price} jika di ubah ke rupiah = ${IDR.format(price)}`);
 
 //============================problem5
 let theString: string = "andika luhur pambudi"; ///Menyimpan teks "andika luhur pambudi" ke dalam variabel theString.
-const findString: string = "luhur"; //Menyimpan teks "andika" ke dalam variabel findString.
-theString = theString.replaceAll(findString, ""); //Menghapus semua kemunculan kata "andika" dari theString.
+const findString: string = "and"; //Menyimpan teks "andika" ke dalam variabel findString.
+theString = theString.replace(findString, ""); //Menghapus semua kemunculan kata "andika" dari theString.
 console.log(theString); // Mencetak hasil akhir ke konsol, yang dalam hal ini adalah "luhur pambudi
 
 //problem6
@@ -135,7 +135,7 @@ if (x <= y && x <= z) {
 
 //problem 10
 
-const inputValue: number = 3; // Ganti dengan nilai yang ingin Anda periksa
+const inputValue: any = 4; // Ganti dengan nilai yang ingin Anda periksa
 
 if (typeof inputValue === "string") {
   console.log(1); // String
