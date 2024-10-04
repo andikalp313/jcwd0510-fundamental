@@ -42,10 +42,10 @@ console.log(`angka ${price} jika di ubah ke rupiah = ${IDR.format(price)}`);
 // ${IDR.format(price)}: Menyisipkan hasil pemformatan angka price oleh objek IDR
 
 //============================problem5
-let theString: string = "andika luhur pambudi";
-const findString: string = "andika";
-theString = theString.replaceAll(findString, "");
-console.log(theString);
+let theString: string = "andika luhur pambudi"; ///Menyimpan teks "andika luhur pambudi" ke dalam variabel theString.
+const findString: string = "luhur"; //Menyimpan teks "andika" ke dalam variabel findString.
+theString = theString.replaceAll(findString, ""); //Menghapus semua kemunculan kata "andika" dari theString.
+console.log(theString); // Mencetak hasil akhir ke konsol, yang dalam hal ini adalah "luhur pambudi
 
 //problem6
 // Kode ini bertujuan untuk mengubah huruf pertama setiap kata dalam sebuah kalimat menjadi
@@ -84,6 +84,8 @@ let swappedString = "";
 for (let i = 0; i < originalString.length; i++) {
   //for loop digunakan untuk memeriksa setiap karakter dalam
   let char = originalString[i]; // originalString satu per satu.
+  console.log(char, i);
+
   if (char >= "a" && char <= "z") {
     //ika karakter saat ini adalah huruf kecil (antara 'a' dan 'z'):
     swappedString += char.toUpperCase(); // diubah ke huruf kapital
@@ -107,7 +109,7 @@ console.log(
 
 //problem9
 const x: number = 2;
-const y: number = 4;
+const y: number = 3;
 const z: number = 4;
 if (x <= y && x <= z) {
   // jika 2 <= 3 &&  2 <== 4
