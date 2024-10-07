@@ -10,11 +10,12 @@ const arr4: number[] = new Array(1, 2, 3, 4);
 
 //array of object
 
-// const student : { name: string; email:string }[] = [
-//     {name: "budi", email: "budi@mail.com"},
-//     {name: "siti", email: "siti@mail.com"},
-//     {name: "budi", email: "budi@mail.com"},
-// ];
+const student: { name: string; email: string }[] = [
+  { name: "budi", email: "budi@mail.com" },
+  { name: "siti", email: "siti@mail.com" },
+  { name: "budi", email: "budi@mail.com" },
+  { name: "andika", email: "andika@gamil.com" },
+];
 
 //pascalCase
 //Singular
